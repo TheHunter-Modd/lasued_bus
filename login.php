@@ -44,5 +44,18 @@ require_once 'includes/signin_view.inc.php';
             </div>
         </div>
 
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4"> <!-- Adjust width here -->
+                    <form class="row g-3" action="includes/signout.inc.php" method="post">
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary">Logout</button>
+                        </div>
+                    </form>
+      
+                </div>
+            </div>
+        </div>
+
 </body>
 </html>
