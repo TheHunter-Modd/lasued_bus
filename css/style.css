@@ -1,0 +1,5 @@
+h3.heading {
+  text-align: center;   /* center horizontally */
+  margin-top: 20px;     /* push it a bit down from the top */
+  font-weight: bold;
+}
