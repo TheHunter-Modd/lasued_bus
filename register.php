@@ -1,5 +1,6 @@
 <?php
 require_once 'includes/config_session.inc.php';
+require_once 'includes/signup_view.inc.php';
 ?>
 
 <!DOCTYPE html>
@@ -40,6 +41,13 @@ require_once 'includes/config_session.inc.php';
                 </div>     
             </div>
         </div> 
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <?php 
+                Check_signup_errors(); 
+                ?>
+            </div>
+        </div>
 
 </body>
 </html>

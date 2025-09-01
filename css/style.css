@@ -3,3 +3,27 @@ h3.heading {
   margin-top: 20px;     /* push it a bit down from the top */
   font-weight: bold;
 }
+
+/* login & signup styles */
+
+p.welcome-message {
+  text-align: center;   /* center horizontally */
+  font-size: 1.2em;    /* slightly larger font size */
+  color: #333;         /* dark gray color for better readability */
+  margin-top: 10px;    /* space above the message */
+}
+
+p.form-error {
+  text-align: center;   /* center horizontally */
+  color: red;          /* red color for error messages */
+  font-weight: bold;   /* make it bold */
+  margin-top: 10px;    /* space above the message */
+}
+
+
+p.form-success{
+  text-align: center;   /* center horizontally */
+  color: green;        /* green color for success messages */
+  font-weight: bold;   /* make it bold */
+  margin-top: 10px;    /* space above the message */
+}
