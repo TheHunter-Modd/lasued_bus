@@ -14,7 +14,7 @@ require_once 'includes/signup_view.inc.php';
 </head>
 <body>
 
-    <h3 class="heading">Register</h3>
+    <h3 class="ls-heading">Register</h3>
 
         <div class="container">
             <div class="row justify-content-center">
