@@ -13,8 +13,12 @@ require_once 'includes/signin_view.inc.php';
     <title>Document</title>
 </head>
 <body>
+    <h3>
+    <?php output_staff_id(); 
+    ?>
+  </h3>
 
-    <h3 class="heading">Login</h3>
+    <h3 class="ls-heading">Login</h3>
 
         <div class="container">
             <div class="row justify-content-center">

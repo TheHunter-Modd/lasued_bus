@@ -3,9 +3,9 @@
 declare(strict_types=1);
 
 
-function output_name(): void {
+function output_staff_id(): void {
     if (isset($_SESSION['user_id'])) {
-        echo '<p class="welcome-message">You are logged in as, ' . $_SESSION['user_username'] . '!</p>';
+        echo '<p class="welcome-message">You are logged in as, ' . $_SESSION['user_staff_id'] . '!</p>';
     }else {
         echo '<p class="welcome-message">You are not logged in!</p>';
     }
