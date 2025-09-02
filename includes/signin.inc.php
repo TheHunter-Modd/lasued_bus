@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
        $_SESSION['last_regeneration'] = time();
 
-       header("Location: ../login.php?login=success");
+       header("Location: ../book.php?login=success");
        $pdo = null;
        $stmt = null;
        
