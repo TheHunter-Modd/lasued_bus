@@ -16,7 +16,7 @@ body {
 
 /* ===== NAVBAR ===== */
 header {
-    background: #2c3e50;
+    background: #0d6efd;
     color: #fff;
     padding: 1rem 2rem;
 }
@@ -41,12 +41,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #f1c40f;
+    color: #ffc107;
 }
 
 /* ===== HERO ===== */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/bus.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(13, 110, 253, 0.7), rgba(13, 110, 253, 0.7)), 
+                url('../images/bus.jpg') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 5rem 2rem;
@@ -63,17 +64,17 @@ header nav ul li a:hover {
 }
 
 .hero .btn {
-    background: #f1c40f;
-    color: #2c3e50;
+    background: #198754;  /* Green */
+    color: #fff;
     padding: 0.8rem 1.5rem;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .hero .btn:hover {
-    background: #d4ac0d;
+    background: #145c32; /* Darker green */
 }
 
 /* ===== STEPS ===== */
@@ -84,7 +85,7 @@ header nav ul li a:hover {
 
 .steps h2 {
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: #0d6efd; /* Blue */;
 }
 
 .step-container {
@@ -104,12 +105,12 @@ header nav ul li a:hover {
 
 .step h3 {
     margin-bottom: 1rem;
-    color: #16a085;
+    color: #198754; /* Green */
 }
 
 /* ===== FOOTER ===== */
 footer {
-    background: #2c3e50;
+    background: #0d6efd; /* Blue */
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -120,32 +121,67 @@ footer {
 
 /* ===== FORM STYLES ===== */
 /* register & login heading styles */
-h3.ls-heading {
-  text-align: center;   /* center horizontally */
-  margin-top: 20px;     /* push it a bit down from the top */
-  font-weight: bold;
+
+/* ===== Registration & Login Portal Style ===== */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f8fafc, #e8f0fe);
 }
 
-/* login & signup styles */
+/* Headings */
+h3.ls-heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #0d6efd; /* Bootstrap primary */
+}
 
+/* Card shadow effect */
+.card {
+  border: none;
+  background: #fff;
+}
+
+/* Input fields */
+.form-control {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 6px rgba(13, 110, 253, 0.25);
+}
+
+/* Button */
+button.btn-primary {
+  padding: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #084298;
+}
+
+/* Messages */
 p.welcome-message {
-  text-align: center;   /* center horizontally */
-  font-size: 1.2em;    /* slightly larger font size */
-  color: #333;         /* dark gray color for better readability */
-  margin-top: 10px;    /* space above the message */
+  text-align: center;
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 15px;
 }
 
 p.form-error {
-  text-align: center;   /* center horizontally */
-  color: red;          /* red color for error messages */
-  font-weight: bold;   /* make it bold */
-  margin-top: 10px;    /* space above the message */
+  color: red;
+  font-weight: bold;
 }
 
-
-p.form-success{
-  text-align: center;   /* center horizontally */
-  color: green;        /* green color for success messages */
-  font-weight: bold;   /* make it bold */
-  margin-top: 10px;    /* space above the message */
+p.form-success {
+  color: green;
+  font-weight: bold;
 }
