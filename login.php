@@ -20,6 +20,7 @@ require_once 'includes/signin_view.inc.php';
         <h3 class="ls-heading mb-3">Staff Login Portal</h3>
         <p class="welcome-message">Access the LASUED Staff Bus Ticketing System</p>
 
+
         <form class="row g-3" action="includes/signin.inc.php" method="post">
           <div class="col-12">
             <input type="text" name="staff_id" class="form-control" placeholder="Staff ID" required>
